@@ -1,0 +1,28 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: strangler-gateway
+
+migration:
+  orders:
+    enabled: false
+  inventory:
+    enabled: false
+
+app:
+  backends:
+    legacy-url: http://localhost:8081
+    modern-order-url: http://localhost:8082
+    inventory-url: http://localhost:8083
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+logging:
+  pattern:
+    level: "%5p [correlationId:%X{correlationId:-none}]"

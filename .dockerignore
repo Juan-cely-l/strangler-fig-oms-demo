@@ -1,0 +1,76 @@
+# VCS
+.git
+.gitignore
+
+# OS / temporary files
+.DS_Store
+Thumbs.db
+tmp/
+*.tmp
+*.swp
+
+# IDE/editor files
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# Java/Maven build outputs
+target/
+**/target/
+**/*.class
+**/*.jar
+**/*.war
+**/*.ear
+
+# Node/Vite/frontend build outputs
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+build/
+coverage/
+.vite/
+frontend/.vite/
+*.tsbuildinfo
+
+# Runtime logs and reports
+logs/
+*.log
+reports/
+k6-results/
+*.har
+
+# Local environment
+.env
+.env.*
+*.local
+localstack-data/
+h2-data/
+*.db
+*.mv.db
+*.trace.db
+
+# AI/local assistant files
+AGENTS.md
+agents.md
+DESIGN.md
+design.md
+DESING.md
+desing.md
+.agents/
+.codex/
+.cursor/
+.windsurf/
+.aider*
+.claude/
+CLAUDE.md
+GEMINI.md
+**/.agents/
+**/.codex/
+
+# Project auxiliary material excluded from image context
+docs/
+scripts/
