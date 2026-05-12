@@ -1,5 +1,6 @@
 # Strangler Fig OMS Demo
 # Link Video Demo: https://youtu.be/zX-yPGpiyy8
+# Link Presentacion : https://gamma.app/docs/Modernizacion-Incremental-de-OMS-Retail-vhcgskrk4hnm5r9
 
 Demo academico local de modernizacion incremental de un sistema OMS retail usando el patron Strangler Fig.  
 El cliente consume una unica entrada publica (`http://localhost:8080`) y el gateway enruta internamente entre legacy y servicios modernos segun flags de migracion.
